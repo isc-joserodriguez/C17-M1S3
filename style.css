@@ -1,23 +1,46 @@
-* {
-    margin: 0
+@font-face {
+    font-family: 'fuente-spotify';
+    font-weight: bolder;
+    src: url('./fonts/CircularSpotify-Black.woff2');
 }
+
+@font-face {
+    font-family: 'fuente-spotify';
+    font-weight: bold;
+    src: url('./fonts/CircularSpotify-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'fuente-spotify';
+    src: url('./fonts/CircularSpotify.woff2');
+}
+
+* {
+    margin: 0;
+    font-family: 'fuente-spotify';
+}
+
 
 footer {
     background-color: black;
     padding: 80px 200px 50px 200px;
 }
 
-.footer-top{
+.footer-top {
     display: grid;
-    grid-template-columns: 18% 75% 1fr;
+    grid-template-columns: 18% 65% 1fr;
 
 }
 
-.footer-top nav{
+.footer-top nav {
     display: flex;
 }
 
-.footer-top nav li{
+.footer-top nav ul{
+    margin-right: 55px;
+}
+
+.footer-top nav li {
     list-style: none;
     margin-top: 10px;
     letter-spacing: .08em;
@@ -25,59 +48,64 @@ footer {
     color: white;
 }
 
-.footer-top nav li:hover{
+.footer-top nav li:hover {
     color: green;
 }
 
-.footer-top nav li.titulo{
+.footer-top nav li.titulo {
     text-transform: uppercase;
     font-size: 10px;
     color: #919496;
 }
 
-.redes{
+.redes {
     display: flex;
     justify-content: flex-end;
+    align-items: baseline;
 }
 
-.redes label{
+.redes label {
     margin-left: 15px;
 }
 
-.lenguaje{
+.lenguaje {
     text-align: right;
 }
 
-.lenguaje a{
+.lenguaje a {
     text-decoration: none;
     color: #919496;
 }
 
-.lenguaje a:hover{
+.lenguaje a:hover {
     color: green;
 }
 
-.footer-bottom{
-    color:white;
+.footer-bottom {
+    color: white;
     font-size: 8px;
     margin-top: 10px;
 }
 
 .footer-bottom ul,
 .footer-bottom ul li,
-.footer-bottom .copy{
+.footer-bottom .copy {
     display: inline-block;
 }
 
-.footer-bottom ul{
+.footer-bottom ul {
     width: 60%;
-    padding:0;
+    padding: 0;
 }
 
-.footer-bottom .copy{
-    width:39%;
+.footer-bottom ul li:hover {
+    color: green;
 }
 
-.copy{
+.footer-bottom .copy {
+    width: 39%;
+}
+
+.copy {
     text-align: right;
 }
