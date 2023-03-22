@@ -20,6 +20,11 @@
     font-family: 'fuente-spotify';
 }
 
+body{
+    background-image: url('https://v1.padlet.pics/2/image.webp?t=c_limit%2Cdpr_1%2Ch_240%2Cw_240&url=https%3A%2F%2Fpadlet-artifacts.storage.googleapis.com%2F9c2de33f5683cf258b21b71b396f64d3be00da0a%2Fbefe818019e237181e8766041402acfe-h-6f2902ae4db2b833a004d1a0a29b3780.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 footer {
     background-color: black;
